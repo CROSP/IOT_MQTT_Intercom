@@ -7,17 +7,17 @@
 
 /*DEFAULT CONFIGURATIONS*/
 
-#define MQTT_HOST			"mqtt.iot.crosp.net" //or "mqtt.yourdomain.com"
+#define MQTT_HOST			"my.domain.com" //or "mqtt.yourdomain.com"
 #define MQTT_PORT			1883
 #define MQTT_BUF_SIZE		1024
 #define MQTT_KEEPALIVE		120	 /*second*/
 
 #define MQTT_CLIENT_ID		"COM_INTERCOM_%08X"
-#define MQTT_USER			"home_intercom"
-#define MQTT_PASS			"IotHomeProjectIntercom"
+#define MQTT_USER			"testuser"
+#define MQTT_PASS			"testpassword"
 
 #define STA_SSID "MobileWorld"
-#define STA_PASS "helloworld"
+#define STA_PASS "ap_password"
 #define STA_TYPE AUTH_WPA2_PSK
 
 #define MQTT_RECONNECT_TIMEOUT 	5	/*second*/
